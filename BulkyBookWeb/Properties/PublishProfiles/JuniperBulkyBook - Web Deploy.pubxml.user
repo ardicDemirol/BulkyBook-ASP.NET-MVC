@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWcVkk0cvQEW9WD04UFjWJwAAAAACAAAAAAAQZgAAAAEAACAAAAABKq3E5d6/YWs6cShjI2FZ389GdVdNSBmi/iCQH9+oOAAAAAAOgAAAAAIAACAAAABPx50huSLTHgQZFWZu9E1+xPT6Hon/QaNOo7zIS1jRZIAAAADmKpRHPpjNM8K0uP6lrikCghP9mvu2Jhj1m+pkUxowig97z+KkG36CmJeg95SDjByaWLqVGHC+92/ZIFZ+jSkZMHbgZI3h2te72WX1d8Z9DnKqRybMxmpUQnqx9EGzZeHueiTYDMy1ggTYxbjV/RdKm81WeOCPB0JeoMTiEdw4Q0AAAAAtDVtHUp9uKbrmbAJkpqFJCrbumDsBYNqBnWJYweSydLdm0/18ENpLS9TICYlV1Pjkerp7S9QWFUadiGmeg+al</EncryptedPassword>
+    <History>True|2024-07-28T06:57:00.9803529Z;False|2024-07-28T09:45:27.5649038+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:juniperserver.database.windows.net,1433%3bInitial Catalog=BulkyBook-DB%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=26sedalA%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWeb.Data.ApplicationDbContext">
+      <Value>Server=tcp:juniperserver.database.windows.net,1433%3bInitial Catalog=BulkyBook-DB%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=26sedalA%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
