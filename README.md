@@ -2,6 +2,7 @@
 
 Features:
 * MVC
+* Razor Pages
 * SQL Database
 * Bootstrap
 * Microsoft Azure
